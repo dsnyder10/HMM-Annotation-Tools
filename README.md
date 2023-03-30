@@ -16,9 +16,7 @@ You should install Biopython for optimal use.
 
 If you need to install conda for HHSuite, use the following.
 
-```conda config --add channels defaults
-conda config --add channels bioconda
-conda config --add channels conda-forge```
+```conda config --add channels defaults conda config --add channels bioconda conda config --add channels conda-forge```
 
 
 **Stockholm Format**
