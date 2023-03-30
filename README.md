@@ -4,11 +4,18 @@ Tools that can be used for comparing ortholog groups as HMM profiles to Pfam.
 
 You should install Biopython for optimal use. 
 
+pip install biopython
 
 
-#HMMER 
+If you need to install conda for HHSuite, use the following.
 
-To obtain HMMER releases, visit hmmer.org for the latest release.
+conda config --add channels defaults
+conda config --add channels bioconda
+conda config --add channels conda-forge
+
+HMMER 
+
+To obtain HMMER releases directly from the site, visit hmmer.org for the latest release.
 
 Download and install latest release: 
 
@@ -28,5 +35,7 @@ Download and install latest release:
 HHSuite can be installed using conda as follows.
 
 conda install -c conda-forge -c bioconda hhsuite 
+
+
 
 
