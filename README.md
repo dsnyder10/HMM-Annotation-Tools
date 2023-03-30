@@ -6,7 +6,7 @@ You should install Biopython for optimal use.
 
 
 
-HMMER 
+#HMMER 
 
 To obtain HMMER releases, visit hmmer.org for the latest release.
 
@@ -23,11 +23,10 @@ Download and install latest release:
 
 
 
-HHSuite
+#HHSuite
 
 HHSuite can be installed using conda as follows.
 
-# install via conda
 conda install -c conda-forge -c bioconda hhsuite 
 
 
