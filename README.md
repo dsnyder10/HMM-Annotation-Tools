@@ -1,17 +1,25 @@
 # HMM-Annotation-Tools
 Tools that can be used for comparing ortholog groups as HMM profiles to Pfam.
 
+Biopython
 
 You should install Biopython for optimal use. 
 
 pip install biopython
 
 
+Conda
+
 If you need to install conda for HHSuite, use the following.
 
 conda config --add channels defaults
 conda config --add channels bioconda
 conda config --add channels conda-forge
+
+
+Stockholmm Format
+
+Stockholm is the optimal format for annotating MSAs with HMMER. If you need to convert it to Stockholm, use the following.
 
 HMMER 
 
@@ -27,7 +35,10 @@ Download and install latest release:
    % make check                 # optional: run automated tests
    % make install               # optional: install HMMER programs, man pages
    % (cd easel; make install)   # optional: install Easel tools
-
+   
+   
+HMMSearch
+Use the hmmsearch.py script to run HMMER with the input MSA. 
 
 
 #HHSuite
@@ -35,6 +46,10 @@ Download and install latest release:
 HHSuite can be installed using conda as follows.
 
 conda install -c conda-forge -c bioconda hhsuite 
+
+HHSearch
+
+Use the hhsearch.py script to run HHSuite with the input MSA. 
 
 
 
