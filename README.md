@@ -8,7 +8,8 @@ Tools that can be used for comparing ortholog groups as HMM profiles to Pfam.
 
 You should install Biopython for optimal use. 
 
-'''pip install biopython'''
+```pip install biopython```
+
 
 
 **Conda**
