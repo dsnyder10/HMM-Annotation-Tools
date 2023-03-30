@@ -2,9 +2,9 @@ HMM-Annotation-Tools
 
 Tools that can be used for comparing ortholog groups as HMM profiles to Pfam.
 
-Dependencies
+**Dependencies**
 
-Biopython
+**Biopython**
 
 You should install Biopython for optimal use.
 
@@ -44,6 +44,7 @@ Download and install latest release:
    
    
 **HMMSearch**
+
 Use the hmmsearch.py script to run HMMER with the input MSA. 
 
 
