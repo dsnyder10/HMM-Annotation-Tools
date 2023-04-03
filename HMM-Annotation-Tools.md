@@ -22,7 +22,7 @@ conda config --add channels conda-forge
 
 
 
-**Software Suites**
+**Usage**
 
 
 **HMMER**
