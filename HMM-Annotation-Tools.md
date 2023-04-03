@@ -59,4 +59,4 @@ conda-forge -c bioconda hhsuite
 
 **HHSearch**
 
-Use the hhsearch.py script to run HHSuite with the input MSA. 
+Use the hhsuite.py script to run HHSuite with the input MSA. 
