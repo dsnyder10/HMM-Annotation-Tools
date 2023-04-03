@@ -6,7 +6,7 @@ Tools that can be used for comparing ortholog groups as HMM profiles to the Pfam
 
 **Biopython**
 
-You should install Biopython for optimal use.
+You should install Biopython before using HMMER and HHSuite.
 
 ```pip install biopython```
 
