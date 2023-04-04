@@ -45,7 +45,7 @@ make install               # optional: install HMMER programs, man pages
    
 **HMMSearch**
 
-Use the hmmsearch.py script to run HMMER with the input MSA. 
+Use the hmmsearch.py script to run HMMER with the input MSA against Pfam.
 
 
 **HHSuite**
@@ -59,4 +59,4 @@ conda-forge -c bioconda hhsuite
 
 **HHSearch**
 
-Use the hhsuite.py script to run HHSuite with the input MSA. 
+Use the hhsuite.py script to run HHSuite with the input MSA against Pfam.
